@@ -1,14 +1,15 @@
-num1 = int(input("Enter First Number:"))
-num2 = int(input("Enter Second Number:"))
+number1 = int(input("Enter First Number:"))
+number2 = int(input("Enter Second Number:"))
 
-add = num1+num2
-sub = num1-num2
-multiply = num1*num2
-power= num1**num2
-divide = num1/num2
+addition = number1 + number2
+subtraction = number1 - number2
+multiplication = number1 * number2
+division = number1 / number2
+power = number1 ** number2
 
-print(f"Sum of {num1} and {num2} is {add}")
-print(f"Subtraction of {num1} and {num2} is {sub}")
-print(f"Product of {num1} and {num2} is {multiply}")
-print(f"Dividing of {num1} and {num2} is {divide}")
-print(f"Power of {num1} and {num2} is {power}")
+print(f"{number1} + {number2} = {addition}")
+print(f"{number1} - {number2} = {subtraction}")
+print(f"{number1} x {number2} = {multiplication}")
+print(f"{number1} ÷ {number2} = {division}")
+print(f"{number1} raised to {number2} = {power}")
+
